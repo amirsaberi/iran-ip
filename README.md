@@ -17,6 +17,7 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 ## Install requirements
 
 ``$ sudo yum install python python-pip bzip2``
+
 ``$ sudo pip install netaddr``
 
 ## How to use
