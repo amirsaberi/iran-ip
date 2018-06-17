@@ -14,6 +14,10 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 - Python: http://www.cyberciti.biz/faq/install-python-linux/
 - Python netaddr: https://pythonhosted.org/netaddr/installation.html
 
+## Install requirements
+
+$ sudo yum install python python-pip bzip2
+
 ## How to use
 
     $ bash getip.sh
