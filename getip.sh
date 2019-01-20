@@ -32,7 +32,7 @@ wget http://archive.routeviews.org/oix-route-views/oix-full-snapshot-latest.dat.
 bzip2 -d $FOLDER/oix-full-snapshot-latest.dat.bz2
 
 ## Find routes with Iran AS number and grep with Iran TIC & IPM company 
-egrep -f $ASFILE $FOLDER/oix-full-snapshot-latest.dat | egrep " (42440|48159|12880|6736)" |sed "s/ \([0-9]\+\) \1/ \1/g" | awk '{print $2}' | uniq |  sort > $IPFILE 
+egrep -f $ASFILE $FOLDER/oix-full-snapshot-latest.dat | egrep " (49666|42440|48159|12880|6736)" |sed "s/ \([0-9]\+\) \1/ \1/g" | awk '{print $2}' | uniq |  sort > $IPFILE 
 
 
 ## Summarize IPs with python
