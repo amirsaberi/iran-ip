@@ -15,5 +15,3 @@ for ip_object in ip_range:
 	ip_network_cidr.append(str(ip_object))
 
 print "\n".join(ip_network_cidr)
-
-### TEST
