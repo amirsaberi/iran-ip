@@ -5,7 +5,7 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 ## Requirements
 
 - Bash
-- Python 2.6+
+- Python 2.6
 - Python lib netaddr
 - bzip2
 
